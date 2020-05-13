@@ -19,6 +19,7 @@
         <module>rest-service</module>
         <module>account-manager</module>
         <module>Auth-service</module>
+        <module>frontApp</module>
     </modules>
     <dependencies>
         <dependency>

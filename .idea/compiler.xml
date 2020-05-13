@@ -7,10 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="account-manager" />
-        <module name="connect-mysql" />
+        <module name="jwt-auth-service" />
         <module name="Auth-Service" />
         <module name="webapp" />
-        <module name="jwt-auth-service" />
+        <module name="connect-mysql" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
