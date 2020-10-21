@@ -8,7 +8,6 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan({
-        "com.ecrisson.org",
         "com.example.restservice"
 })
 @EnableConfigurationProperties
