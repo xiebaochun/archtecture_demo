@@ -25,5 +25,9 @@
             <artifactId>mysql-connector-java</artifactId>
             <scope>runtime</scope>
         </dependency>
+<<<<<<< HEAD
+=======
+
+>>>>>>> cd372fe204b4623b619647023ddafbab46c5af77
     </dependencies>
 </project>
