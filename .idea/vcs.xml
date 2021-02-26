@@ -5,6 +5,7 @@
     <mapping directory="$PROJECT_DIR$/Auth-service" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/front-app" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/gs-rest-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/rest-service" vcs="" />
     <mapping directory="$PROJECT_DIR$/spring-boot-jwt" vcs="Git" />
   </component>
 </project>

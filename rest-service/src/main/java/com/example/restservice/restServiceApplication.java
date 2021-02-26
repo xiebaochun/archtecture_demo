@@ -15,4 +15,5 @@ public class restServiceApplication {
     public static void main(String[] args) {
         SpringApplication.run(restServiceApplication.class, args);//NOSONAR
     }
+
 }
