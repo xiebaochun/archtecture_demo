@@ -4,10 +4,7 @@ import com.example.restservice.Greeting;
 import com.example.restservice.model.Student;
 import com.example.restservice.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 
 @RestController
@@ -17,7 +14,7 @@ public class StudentController {
     @Autowired
     StudentRepository studentRepository;
 
-    @GetMapping("/add")
+    @PostMapping("add")
     public String add(@RequestParam(value = "firstName", defaultValue = "defaultFirstName") String firstName,
                       @RequestParam(value = "lastName", defaultValue = "defaultLastName") String lastName) {
         //return new Greeting(counter.incrementAndGet(), String.format(template, "name"));
